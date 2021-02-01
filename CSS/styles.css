@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: Kumbh Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  background-color: hsl(185, 75%, 39%);
+}
+
+a {
+  text-decoration: underline;
+  font-weight: 700;
+  color: white;
+}
+
+.container {
+  /* background-color: rgb(0, 0, 0, .3); */
+  position: relative;
+}
+
+.card {
+  width: 50%;
+  border-radius: 5%;
+  position: relative;
+  background-color: white;
+  margin: 15rem auto;
+  box-shadow: 0 0 2rem rgb(0, 0, 0, .5);
+  /* THIS FITS CROP THE CONTENT INSIDE TO FIT DE RADIUS */
+  overflow: hidden;
+}
+
+.text {
+  position: relative;
+  top: -7rem;
+}
+
+.name {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.follows {
+  margin: 2rem 0;
+  position: absolute;
+  left: 4rem;
+}
+
+.likes {
+  margin: 2rem 0;
+  position: absolute;
+  left: 13.5rem;
+}
+
+.photos {
+  margin: 2rem 0;
+  position: absolute;
+  left: 22rem;
+}
+
+.attribution {
+  color: white;
+}
+
+/* IMAGES */
+.top-pattern {
+  position: fixed;
+  left: -20rem;
+  top: -17rem;
+  width: 80%;
+}
+
+.bottom-pattern {
+  position: fixed;
+  right: -20rem;
+  bottom: -20rem;
+  width: 80%;
+}
+
+.card-pattern {
+  width: 100%;
+}
+
+.profile {
+  position: relative;
+  width: 30%;
+  margin: 1rem auto;
+  top: -6.2rem;
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 8px;
+  border-color: white;
+
+}
+
+/* SPECIFIC TEXT */
+#name {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  margin-bottom: 0.5rem;
+}
+
+#age {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
+
+#n-follows {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+#n-likes {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+#n-photos {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+#category {
+  font-size: 15px;
+}
